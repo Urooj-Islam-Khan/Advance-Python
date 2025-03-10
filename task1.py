@@ -1,68 +1,29 @@
-# Q1) Write a program in which you have to ask S1, S2, S3 and show the output in this way: [(S1|S2)|S3]
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-print("[(",S1,"|",S2,")|",S3,"]")
+fname = input("Enter your First Name ")
+age = input("Enter your Age ")
+secretCode = input("Enter your Secret Code ")
 
-# Q2) Write a program in which you have to ask S1, S2, S3 and show the output in this way: [(S1,S2|S2/S1)||S3||]
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-print("[(",S1,S2,"|",S2,"/",S1,")||",S3,"||]")
+print("\n[",fname,"]_[",age,"]_[",secretCode,"]\n")
 
-# Q3) Write a program in which you have to ask S1, S2, S3, S4 and show the output in this way: [[S1]/\[S2]/\[S3]/\[S4]]
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-S4 = input("Enter number 4: ")
-print("[[",S1,"]/\[",S2,"]/\[",S3,"]/\[",S4,"]]")
+secretCode1 = input("Enter your First Secret Code ")
+secretCode2 = input("Enter your Second Secret Code ")
+day = input("Enter Day ")
+print("\n[",secretCode1,"]_||_[",day,"]_||_[",secretCode2,"]\n")
 
-# Q4) Write a program in which you have to ask S1, S2, S3, S4 and show the output in this way: |S1|-->S2<--|S3|-->S4
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-S4 = input("Enter number 4: ")
-print("|",S1,"|-->",S2,"<--|",S3,"|-->",S4)
+sc1 = input("Enter your First Secret Code")
+sc2 = input("Enter your Second Secret Code")
+age1 = input("Enter your Age ")
+day1 = input("Enter Day ")
+print("\n[",sc1,"]_|[",day1,"][",sc2,"]|_[",age1,"]_|[",day1,"][",sc1,"]|_[",sc2,"]\n")
 
-# Q5) Write a program in which you have to ask S1, S2, S3, S4 and show the output in this way: |S1|/-\|->S2<-|/-\|S3|/-\|->S4
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-S4 = input("Enter number 4: ")
-print("|",S1,"|/-\|->",S2,"<-|/-\|",S3,"|/-\|->",S4)
+sc_1 = input("Enter your First Secret Code")
+sc_2 = input("Enter your Second Secret Code")
+sc_3 = input("Enter your Third Secret Code")
 
-# Q6) Write a program in which you have to ask S1, S2, S3, S4, S5 and show the output in this way: S1|?|S5-~>S3$#>_[S2|(S4]
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-S4 = input("Enter number 4: ")
-S5 = input("Enter number 5: ")
-print(S1,"|?|",S5,"-~>",S3,"$#>_[",S2,"|(",S4,"]")
+print("\n",sc_3,"\n:\\([[",sc_1,"|_|_|",sc_2,"]])/\n")
 
-# Q7) Write a program in which you have to ask S1, S2, S3, S4, S5 and show the output in this way: S1S2S3S4S5S2S3S1S4S1S2S4S5
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-S4 = input("Enter number 4: ")
-S5 = input("Enter number 5: ")
-print(S1+S2+S3+S4+S5+S2+S3+S1+S4+S1+S2+S4+S5)
+scd1 = input("Enter your First Secret Code")
+scd2 = input("Enter your Second Secret Code")
+scd3 = input("Enter your Third Secret Code")
+print("\n",scd3,":[",scd3,"?|[",scd2,"?[",scd1,"]]]\n")
 
-# Q8) Write a program in which you have to ask S1, S2, S3, S4, S5 and show the output in this way: [S1/|\(|S2|(|S3|)/|\S4|)||S5]
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-S4 = input("Enter number 4: ")
-S5 = input("Enter number 5: ")
-print("[",S1,"/|\\(|",S2,"|(|",S3,"|)/|\\",S4,"|)||",S5,"]")
 
-# Q9) Write a program in which you have to ask S1, S2, S3 and show the output in this way: (|S1-><-S2|]<>><<>[[[S3]]]
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-print("(|",S1,"-><-",S2,"|]<>><<>[[[",S3,"]]]")
-
-# Q10) Write a program in which you have to ask S1, S2, S3 and show the output in this way: (((S1S3||/-?||S2,S1||?-\/||S3S2]]]
-S1 = input("Enter number 1: ")
-S2 = input("Enter number 2: ")
-S3 = input("Enter number 3: ")
-print("(((",S1+S3,"||/-?||",S2+","+S1,"||?-\\/||",S3+S2,"]]]")
