@@ -1,5 +1,0 @@
-name = input("Enter your Name ")
-fname = input("Enter your Friend's Name ")
-age1 = input("Enter first digit of your Age ")
-age2 = input("Enter second digit of your Age ")
-print("My name is ", name, ". My Friend's name is ", fname,". My Age is ", age1+age2)
